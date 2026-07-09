@@ -1,0 +1,6 @@
+{
+  "name": "Coaching Session Presentation Dashboard",
+  "description": "A highly interactive, visually polished presentation and management dashboard for coaching session documentation, allowing Flynn James Pontino to present coaching insights, track trainee progress, and generate AI executive summaries for their Team Leader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
