@@ -74,7 +74,7 @@ app.post('/api/generate-insights', async (req, res) => {
       `;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
         contents: prompt,
         config: {
           systemInstruction: "You are an expert leadership coach and talent analyst. Analyze the provided coaching notes and create a polished, highly professional, executive-ready breakdown for a Team Leader. Provide concise, clear, and actionable feedback.",
